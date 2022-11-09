@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicketHack by Pierre & Farouk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>
+                Tickethack
+            </h1>
+            <ul>
+                <li>
+                    <a href="#" id="cart">Cart</a>
+                </li>
+                <li><a href="#" id="bookings">Bookings</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+
+        <div class="container">
+
+            <h2>Explore the world effortlessly by train</h2>
+            <p>Compage, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
+            <div class="content">
+                <div id="travel" class="block">
+                    <div>
+                        <input type="text" placeholder="Departure">
+                        <input type="text" placeholder="Arrival">
+
+                        <input type="date" name="traveldate" id="traveldate">
+                    </div>
+                    <button id="btn-search">Search</button>
+                </div>
+                <div id="results" class="block">
+                    <div id="results-content">
+
+                        <p><strong>It's time to book your future trip.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
